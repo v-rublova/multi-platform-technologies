@@ -1,0 +1,57 @@
+Compiled from "Info_tech.java"
+public class Info_tech {
+  public Info_tech();
+    Code:
+       0: aload_0
+       1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+       4: return
+
+  public static void main(java.lang.String[]);
+    Code:
+       0: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+       3: ldc           #3                  // String Group: 535st2\nName: Rublova Victoriia Grigorevna\nVariant: 8\n
+       5: invokevirtual #4                  // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+       8: iconst_5
+       9: anewarray     #5                  // class java/lang/String
+      12: dup
+      13: iconst_0
+      14: ldc           #6                  // String  ____   __     __   ____
+      16: aastore
+      17: dup
+      18: iconst_1
+      19: ldc           #7                  // String |  _ \  \ \   / /  / ___|
+      21: aastore
+      22: dup
+      23: iconst_2
+      24: ldc           #8                  // String | |_) |  \ \ / /  | |  _
+      26: aastore
+      27: dup
+      28: iconst_3
+      29: ldc           #9                  // String |  _ <    \ V /   | |_| |
+      31: aastore
+      32: dup
+      33: iconst_4
+      34: ldc           #10                 // String |_| \_\    \_/     \____|
+      36: aastore
+      37: astore_1
+      38: aload_1
+      39: astore_2
+      40: aload_2
+      41: arraylength
+      42: istore_3
+      43: iconst_0
+      44: istore        4
+      46: iload         4
+      48: iload_3
+      49: if_icmpge     72
+      52: aload_2
+      53: iload         4
+      55: aaload
+      56: astore        5
+      58: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+      61: aload         5
+      63: invokevirtual #4                  // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+      66: iinc          4, 1
+      69: goto          46
+      72: return
+}
